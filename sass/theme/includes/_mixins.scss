@@ -1,0 +1,10 @@
+@mixin imgHover() {
+    transition: transform 1s;
+    &:hover {
+        -webkit-transform : rotate(10deg) scale(1.4); /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform     : rotate(10deg) scale(1.4); /* IE 9 */
+        -o-transform      : rotate(10deg) scale(1.4); /* Op 10.5-12 */
+        transform         : rotate(10deg) scale(1.4); /* Firefox 16+, IE 10+, Opera */
+        cursor            : pointer;
+    }
+}

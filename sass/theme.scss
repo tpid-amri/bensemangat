@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "theme/theme_variables";  // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or BenSemangat variables here
+@import "assets/bootstrap4";      // <-------- Loads Bootstrap4
+@import "bensemangat/bensemangat";  // <-------- Loads the BenSemangat defaults. Just a few classes to incorporate BS in WP
+@import "bensemangat/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you dont use the corresponding scripts/fonts comment em out
+@import "assets/font-awesome";    // <-------- Font Awesome Icon font
+
+// Any additional imported files //
+@import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
+@import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support

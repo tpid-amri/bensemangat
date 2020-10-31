@@ -1,0 +1,49 @@
+.topbar-right {
+    ul {
+        white-space: nowrap;
+        >li {
+            position: relative;
+            margin-left: -2px;
+            display: inline-block;
+            line-height: 42px;
+            padding: 0 10px;
+            a {
+                &.nav-link {
+                    color: #fff;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+.navbar {
+    background-color: $text-color-light;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    .navbar-nav {
+        .active {
+            a {
+                &.nav-link {
+                    color: $primary-color;
+                }
+            }
+        }
+        a {
+            &.nav-link {
+                color: $text-color-dark;
+            }
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+    .custom-logo-link {
+        overflow: hidden;
+        img {
+            max-width: 70px;
+            @media (max-width:768px) {
+                max-width: 45px;
+            }
+        }
+    }
+}

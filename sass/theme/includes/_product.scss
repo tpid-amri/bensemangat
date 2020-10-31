@@ -1,0 +1,51 @@
+.section-product {
+    padding: 2em 0;
+    text-align: center;
+    .subheadline {
+        color: #9b9b9b;
+        font-size: 1em;
+        margin-bottom: 10px;
+        letter-spacing: 3px;
+    }
+    .headline {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .caption {
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
+        margin-bottom: 30px;
+    }
+    .product-list {
+        .product-box {
+            position: relative;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            .product-element-top {
+                margin-bottom: 10px;
+                overflow: hidden;
+                img {
+                    @include imgHover();
+                }
+            }
+            .product-title {
+                margin-bottom: 8px;
+                text-align: left;
+                line-height: 1.2;
+                font-family: unset;
+                font-size: 1em;
+                a {
+                    color: $text-color-dark;
+                    letter-spacing: .3px;
+                    text-decoration: none;
+                    font-weight: 400;
+                 
+                }
+            }
+            .wrap-price {
+                text-align: left;
+            }
+        }
+    }
+}
