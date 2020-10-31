@@ -17,7 +17,7 @@
             <?php if( $featured['featured'] ): ?>
                 <div class="row">
                     <?php foreach( $featured['featured'] as $term ):  ?>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="featured-box">
                                 <?php 
                                     $thumbnail_id = get_term_meta( $term->term_id, 'thumbnail_id', true );
