@@ -1,9 +1,3 @@
-[![Build Status](https://api.travis-ci.org/bensemangat/bensemangat.svg?branch=master)](https://travis-ci.org/bensemangat/bensemangat)
-[![Wordpress Theme Version](https://img.shields.io/wordpress/theme/v/bensemangat.svg)](https://wordpress.org/themes/bensemangat) 
-[![Wordpress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/bensemangat.svg)](https://wordpress.org/themes/bensemangat/) 
-[![Github Last Commit](https://img.shields.io/github/last-commit/bensemangat/bensemangat)](https://github.com/amrikarisma/bensemangat/commits/master) 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
-
 #### See: [Official Demo](https://bensemangat.com/bensemangat) | Read: [Official Docs Page](https://bensemangat.github.io/)
 
 # BenSemangat WordPress Theme Framework
@@ -12,14 +6,11 @@ Website: [https://bensemangat.com](https://bensemangat.com)
 
 Child Theme Project: [https://github.com/amrikarisma/bensemangat-child](https://github.com/amrikarisma/bensemangat-child)
 
-OverStrap Child Themes: [https://bensemangat.com/overstrap/](https://bensemangat.com/overstrap/)
-
 ## About
 
 I’m a huge fan of Underscores, Bootstrap, and Sass. Why not combine these into a solid WordPress Theme Framework? That’s what BenSemangat is. You can use it as a starter theme and build your own theme on top of it. Or you can use it as a parent theme and create your own child theme for BenSemangat.
 
 ## License
-BenSemangat WordPress Theme, Copyright 2013-2018 Holger Koenemann
 BenSemangat is distributed under the terms of the GNU GPL version 2
 
 http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
