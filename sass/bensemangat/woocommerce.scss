@@ -284,3 +284,50 @@ address {
 		}
 	}
 }
+a.added_to_cart.wc-forward {
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    border-radius: 0;
+    border: 1px solid;
+    transition: all .25s ease-in-out;
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+    color: #b69874;
+    background-color: #fff;
+    border-color: #b69874;
+}
+.woocommerce #content table.cart td.actions .coupon .button, 
+.woocommerce #content table.cart td.actions .coupon .input-text, 
+.woocommerce #content table.cart td.actions .coupon input, 
+.woocommerce table.cart td.actions .coupon .button, 
+.woocommerce table.cart td.actions .coupon .input-text, 
+.woocommerce table.cart td.actions .coupon input, 
+.woocommerce-page #content table.cart td.actions .coupon .button, 
+.woocommerce-page #content table.cart td.actions .coupon .input-text, 
+.woocommerce-page #content table.cart td.actions .coupon input, 
+.woocommerce-page table.cart td.actions .coupon .button, 
+.woocommerce-page table.cart td.actions .coupon .input-text, 
+.woocommerce-page table.cart td.actions .coupon input {
+    @media screen and (max-width:768px) {
+		width: 100%;
+    	margin-bottom: 12px;
+	}
+}
+.woocommerce .btn-outline-primary {
+	&[name="apply_coupon"],
+	&[name="update_cart"]{
+		@media screen and (max-width:768px) {
+			width: 100%;
+		}
+	}
+}

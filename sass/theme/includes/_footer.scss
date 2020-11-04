@@ -1,24 +1,24 @@
 footer {
-    margin-top: -28px;
     &.site-footer {
         #wrapper-footer-full,
         #wrapper-static-hero {
-            background-color: #000;
-            color: #fff;
+            background-color: #3e3c3c;
+            color: $text-color-light;
             font-weight: 400;
         }
         #wrapper-footer {
-            background-color: #000;
-            color: #fff;
+            background-color: $primary-color;
+            color:$text-color-light;
             font-weight: 400;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #3e3c3c;
+            padding: 1em 0;
             .copyright {
-                color: rgba(255,255,255,.6);
+                color: $text-color-light;
                 font-size: 0.8em;
             }
         }
         .footer-widget {
-            a {
+            a, span {
                 color: rgba(255,255,255,.6);
                 font-weight: 400;
                 font-size: 0.8em;
