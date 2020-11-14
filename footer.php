@@ -25,7 +25,6 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 				<div class="col-md-12">
 					<div class="copyright">
 						Copyright 2020 by DCC. All Rights Reserved.
-						<?php echo do_shortcode('[woo_cart_but]'); ?>
 					</div>
 
 				</div><!--col end -->
