@@ -14,6 +14,13 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 ?>
 
 <footer class="site-footer" id="colophon">
+<div class="text-center my-4">
+	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/bca.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
+	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/bni.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
+	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/bri.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
+	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/mandiri.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
+	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/cc.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
+</div>
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 	<div class="wrapper" id="wrapper-footer">
