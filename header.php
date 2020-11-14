@@ -36,14 +36,14 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 							<?php endif; ?>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 d-none d-sm-block">
 						<div class="topbar-right text-right">
 							<?php
 							wp_nav_menu(
 								array(
 									'theme_location'  => 'topbar',
 									'container_class' => '',
-									'container_id'    => 'navbarNavDropdown',
+									'container_id'    => 'navbar-nav',
 									'menu_class'      => '',
 									'fallback_cb'     => '',
 									'menu_id'         => 'topbar-menu',
@@ -83,7 +83,7 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 					<?php
 					
 					} else {
-						echo '<div class="d-lg-none">';
+						echo '<div class="logo-center d-lg-none">';
 						the_custom_logo();
 						echo '</div>';
 					}
@@ -107,7 +107,7 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 								'container_id'    => '',
 								'menu_class'      => 'navbar-nav',
 								'fallback_cb'     => '',
-								'menu_id'         => 'main-menu',
+								'menu_id'         => 'primary-menu',
 								'depth'           => 2,
 								'walker'          => new Bensemangat_WP_Bootstrap_Navwalker(),
 							)
