@@ -165,4 +165,6 @@ if ( ! is_admin() && ! function_exists( 'wc_review_ratings_enabled' ) ) {
 	function wc_review_ratings_enabled() {
 		return wc_reviews_enabled() && 'yes' === get_option( 'woocommerce_enable_review_rating' );
 	}
+
+
 }

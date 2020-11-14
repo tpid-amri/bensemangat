@@ -27,6 +27,7 @@ $bensemangat_includes = array(
 	'/editor.php',                          // Load Editor functions.
 	'/deprecated.php',                      // Load deprecated functions.
 	'/acf.php',                      		// ACF Pro.
+	'/wc-frontend.php'
 );
 
 // Load WooCommerce functions if WooCommerce is activated.

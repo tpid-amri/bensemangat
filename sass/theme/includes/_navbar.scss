@@ -39,11 +39,59 @@
     }
     .custom-logo-link {
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img {
             max-width: 70px;
             @media (max-width:768px) {
                 max-width: 45px;
             }
+        }
+    }
+}
+#wrapper-navbar {
+	background-color: #fff;
+    z-index:10;
+    box-shadow: 0 1px 5px rgba(190,190,190,.5);
+	&.sticky {
+		position: fixed;
+		top: 0;
+        width: 100%;
+        .navbar {
+            padding: 0;
+            .custom-logo-link {
+                padding: 0;
+                margin-right: 0;
+                animation-name: zoom-effect;
+                animation-duration: 9s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                img {
+                    max-width: 40px;
+                    padding-top: 10px;
+                }
+            }
+        }
+        .logo-center {
+            line-height: 0;
+        }
+	  }
+	  
+	&.sticky + .content {
+		padding-top: 60px;
+	}
+}
+@media (min-width:768px) {
+    .logged-in #wrapper-navbar {
+        &.sticky {
+            position: fixed;
+            top: 30px;
+            width: 100%;
+          }
+          
+        &.sticky + .content {
+            padding-top: 60px;
         }
     }
 }
