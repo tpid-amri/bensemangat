@@ -15,11 +15,32 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 
 <footer class="site-footer" id="colophon">
 <div class="text-center my-4">
-	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/bca.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
-	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/bni.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
-	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/bri.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
-	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/mandiri.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
-	<img src="http://mimpibags.com/staging/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/cc.png" style="max-width:60px;margin: 10px 20px 10px 20px;">
+<?php 
+	$lsitBank = [
+		'bca',
+		'bni',
+		'mandiri',
+		'permata',
+		'ovo',
+		'dana',
+		'alfamart',
+		'indomaret',
+		'bri',
+		'linkaja',
+		'cc',
+	];
+	$domain = site_url();
+	echo '<div class="container">';
+	echo '<div class="row">';
+	foreach ($lsitBank as $key => $value ) {
+		echo '<div class="col">';
+		echo '<img src="'.$domain.'/wp-content/plugins/woo-xendit-virtual-accounts/assets/images/'.$value.'.png" style="max-width:60px;margin-bottom:20px;">';
+		echo '</div>';
+	}
+	echo '</div>';
+	echo '</div>';
+
+?>
 </div>
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
