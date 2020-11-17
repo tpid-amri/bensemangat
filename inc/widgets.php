@@ -169,6 +169,17 @@ if ( ! function_exists( 'bensemangat_widgets_init' ) ) {
 				'after_title'   => '</h3>',
 			)
 		);
+		register_sidebar(
+			array(
+				'name'          => __( 'Hidden Widget', 'bensemangat' ),
+				'id'            => 'hiddenwidget',
+				'description'   => __( 'widget not showing', 'bensemangat' ),
+				'before_widget' => '<div id="%1$s" class="footer-widget %2$s dynamic-classes">',
+				'after_widget'  => '</div><!-- .footer-widget -->',
+				'before_title'  => '<h3 class="widget-title">',
+				'after_title'   => '</h3>',
+			)
+		);
 
 	}
 } // End of function_exists( 'bensemangat_widgets_init' ).

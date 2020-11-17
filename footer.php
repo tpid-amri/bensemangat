@@ -43,6 +43,7 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 ?>
 </div>
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
+<?php get_template_part( 'sidebar-templates/sidebar', 'hiddenwidget' ); ?>
 
 	<div class="wrapper" id="wrapper-footer">
 
