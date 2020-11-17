@@ -47,6 +47,11 @@ $container = get_theme_mod( 'bensemangat_container_type' );
 </div><!-- #page we need this extra closing tag here -->
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <?php wp_footer(); ?>
+<script>
+	jQuery(document).ready(function(){
+		jQuery(".preloader").fadeOut();
+	})
+</script>
 </body>
 
 </html>
